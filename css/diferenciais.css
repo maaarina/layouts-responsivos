@@ -17,7 +17,6 @@
     box-sizing: border-box;
 
     padding: 2rem 0 2rem 5rem;
-
 }
 
 .diferenciais__item--tempo {
@@ -43,4 +42,14 @@
 
 .item__texto {
     line-height: normal;
+}
+
+@media screen and (min-width: 1024px) {
+    .diferenciais {
+        background-color: var(--cinza-claro);
+    }
+
+    .diferenciais__lista {
+        justify-content: space-around;
+    }
 }
